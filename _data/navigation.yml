@@ -14,7 +14,7 @@ main:
     url: /servizi/
   - title: "Blog"
     url: /blog/
-  - title: "Shop"
+  - title: "Pacchetti"
     url: /negozio/
   - title: "Chi siamo"
     url: /chi-siamo/

@@ -3,7 +3,7 @@ ref: shop-negozio
 layout: single
 classes: wide
 author_profile: false
-title: Negozio
+title: Pacchetti
 permalink: /negozio/
 description: Scegli i prodotti, indica la quantità e aggiungili al carrello.
 ecommerce: true

@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 author_profile: false
-title: Shop
+title: Packages
 description: Choose products, set the quantity and add them to the cart.
 ecommerce: true
 noindex: false
