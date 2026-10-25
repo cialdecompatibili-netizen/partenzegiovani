@@ -8,6 +8,8 @@
 # Le chiavi che iniziano con spazio (" prodotti") servono per i conteggi: non toglierlo.
 # =====================================================================================
 en:
+  "Pacchetto estate": "Summer package"
+  "Pre-iscriviti": "Pre-register"
   "Negozio": "Shop"
   "Tutti": "All"
   "Aggiungi al carrello": "Add to cart"

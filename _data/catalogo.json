@@ -2,12 +2,42 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Estate in Italia",
+      "id": "estate-italia",
+      "icona": "🏖",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Summer in Italy"
+        }
+      }
+    },
+    {
+      "nome": "Estate Croazia e Grecia",
+      "id": "estate-isole",
+      "icona": "⛵",
+      "tr": {
+        "en": {
+          "nome": "Summer in Croatia and Greece"
+        }
+      }
+    },
+    {
+      "nome": "Estate Spagna e Mediterraneo",
+      "id": "estate-spagna",
+      "icona": "🌞",
+      "tr": {
+        "en": {
+          "nome": "Summer in Spain and the Mediterranean"
+        }
+      }
+    },
+    {
+      "nome": "Weekend d'estate",
+      "id": "estate-weekend",
+      "icona": "🎉",
+      "tr": {
+        "en": {
+          "nome": "Summer weekends"
         }
       }
     }
@@ -15,20 +45,1483 @@
   "prodotti": [
     {
       "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "id": "gallipoli-3-notti-alloggio",
+      "nome": "Gallipoli - 3 notti - Solo alloggio",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 25000,
+      "descrizione": "3 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "3 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 250 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "🏖",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Gallipoli - 3 nights - Stay only",
+          "descrizione": "3 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "3 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 250 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "gallipoli-3-notti-eventi",
+      "nome": "Gallipoli - 3 notti - Alloggio + eventi",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 29500,
+      "descrizione": "3 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "3 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 295 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Gallipoli - 3 nights - Stay + events",
+          "descrizione": "3 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "3 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 295 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "gallipoli-5-notti-alloggio",
+      "nome": "Gallipoli - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 39000,
+      "descrizione": "5 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "5 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 390 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Gallipoli - 5 nights - Stay only",
+          "descrizione": "5 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "5 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 390 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "gallipoli-5-notti-eventi",
+      "nome": "Gallipoli - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 46500,
+      "descrizione": "5 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "5 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 465 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Gallipoli - 5 nights - Stay + events",
+          "descrizione": "5 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "5 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 465 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "gallipoli-7-notti-alloggio",
+      "nome": "Gallipoli - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 52000,
+      "descrizione": "7 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "7 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 520 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Gallipoli - 7 nights - Stay only",
+          "descrizione": "7 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "7 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 520 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "gallipoli-7-notti-eventi",
+      "nome": "Gallipoli - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 62500,
+      "descrizione": "7 notti a Gallipoli con ragazzi della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.",
+      "descrizione_completa": "7 notti a Gallipoli, in gruppo con persone della tua età. Mare, aperitivi in spiaggia e serate nei club del Salento.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 625 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Gallipoli - 7 nights - Stay + events",
+          "descrizione": "7 nights in Gallipoli with people your age. Sea, beach aperitifs and nights out at the Salento clubs.",
+          "descrizione_completa": "7 nights in Gallipoli, in a group with people your age. Sea, beach aperitifs and nights out at the Salento clubs.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 625 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "salento-mare-5-notti-alloggio",
+      "nome": "Salento mare (Otranto) - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 34500,
+      "descrizione": "5 notti a Salento mare (Otranto) con ragazzi della tua età. Scogliere, acqua cristallina e serate tranquille.",
+      "descrizione_completa": "5 notti a Salento mare (Otranto), in gruppo con persone della tua età. Scogliere, acqua cristallina e serate tranquille.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 345 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌊",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Salento seaside (Otranto) - 5 nights - Stay only",
+          "descrizione": "5 nights in Salento seaside (Otranto) with people your age. Cliffs, crystal clear water and relaxed evenings.",
+          "descrizione_completa": "5 nights in Salento seaside (Otranto), in a group with people your age. Cliffs, crystal clear water and relaxed evenings.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 345 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "salento-mare-5-notti-eventi",
+      "nome": "Salento mare (Otranto) - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 42000,
+      "descrizione": "5 notti a Salento mare (Otranto) con ragazzi della tua età. Scogliere, acqua cristallina e serate tranquille.",
+      "descrizione_completa": "5 notti a Salento mare (Otranto), in gruppo con persone della tua età. Scogliere, acqua cristallina e serate tranquille.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 420 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌊",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Salento seaside (Otranto) - 5 nights - Stay + events",
+          "descrizione": "5 nights in Salento seaside (Otranto) with people your age. Cliffs, crystal clear water and relaxed evenings.",
+          "descrizione_completa": "5 nights in Salento seaside (Otranto), in a group with people your age. Cliffs, crystal clear water and relaxed evenings.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 420 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "salento-mare-7-notti-alloggio",
+      "nome": "Salento mare (Otranto) - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 46000,
+      "descrizione": "7 notti a Salento mare (Otranto) con ragazzi della tua età. Scogliere, acqua cristallina e serate tranquille.",
+      "descrizione_completa": "7 notti a Salento mare (Otranto), in gruppo con persone della tua età. Scogliere, acqua cristallina e serate tranquille.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 460 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌊",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Salento seaside (Otranto) - 7 nights - Stay only",
+          "descrizione": "7 nights in Salento seaside (Otranto) with people your age. Cliffs, crystal clear water and relaxed evenings.",
+          "descrizione_completa": "7 nights in Salento seaside (Otranto), in a group with people your age. Cliffs, crystal clear water and relaxed evenings.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 460 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "salento-mare-7-notti-eventi",
+      "nome": "Salento mare (Otranto) - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 56500,
+      "descrizione": "7 notti a Salento mare (Otranto) con ragazzi della tua età. Scogliere, acqua cristallina e serate tranquille.",
+      "descrizione_completa": "7 notti a Salento mare (Otranto), in gruppo con persone della tua età. Scogliere, acqua cristallina e serate tranquille.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 565 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌊",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Salento seaside (Otranto) - 7 nights - Stay + events",
+          "descrizione": "7 nights in Salento seaside (Otranto) with people your age. Cliffs, crystal clear water and relaxed evenings.",
+          "descrizione_completa": "7 nights in Salento seaside (Otranto), in a group with people your age. Cliffs, crystal clear water and relaxed evenings.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 565 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-3-notti-alloggio",
+      "nome": "Riviera Romagnola - 3 notti - Solo alloggio",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 20500,
+      "descrizione": "3 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "3 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 205 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 3 nights - Stay only",
+          "descrizione": "3 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "3 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 205 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-3-notti-eventi",
+      "nome": "Riviera Romagnola - 3 notti - Alloggio + eventi",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 25000,
+      "descrizione": "3 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "3 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 250 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 3 nights - Stay + events",
+          "descrizione": "3 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "3 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 250 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-5-notti-alloggio",
+      "nome": "Riviera Romagnola - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 32000,
+      "descrizione": "5 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "5 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 320 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 5 nights - Stay only",
+          "descrizione": "5 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "5 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 320 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-5-notti-eventi",
+      "nome": "Riviera Romagnola - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 39500,
+      "descrizione": "5 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "5 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 395 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 5 nights - Stay + events",
+          "descrizione": "5 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "5 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 395 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-7-notti-alloggio",
+      "nome": "Riviera Romagnola - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 43000,
+      "descrizione": "7 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "7 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 430 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 7 nights - Stay only",
+          "descrizione": "7 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "7 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 430 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "riviera-romagnola-7-notti-eventi",
+      "nome": "Riviera Romagnola - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 53500,
+      "descrizione": "7 notti a Riviera Romagnola con ragazzi della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.",
+      "descrizione_completa": "7 notti a Riviera Romagnola, in gruppo con persone della tua età. Rimini e Riccione tra spiaggia, locali e serate a tema.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 535 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎉",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Romagna Riviera - 7 nights - Stay + events",
+          "descrizione": "7 nights in Romagna Riviera with people your age. Rimini and Riccione: beach, venues and themed nights.",
+          "descrizione_completa": "7 nights in Romagna Riviera, in a group with people your age. Rimini and Riccione: beach, venues and themed nights.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 535 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-3-notti-alloggio",
+      "nome": "Ponza - 3 notti - Solo alloggio",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 27000,
+      "descrizione": "3 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "3 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 270 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 3 nights - Stay only",
+          "descrizione": "3 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "3 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 270 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-3-notti-eventi",
+      "nome": "Ponza - 3 notti - Alloggio + eventi",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 31500,
+      "descrizione": "3 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "3 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 315 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 3 nights - Stay + events",
+          "descrizione": "3 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "3 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 315 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-5-notti-alloggio",
+      "nome": "Ponza - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 42000,
+      "descrizione": "5 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "5 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 420 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 5 nights - Stay only",
+          "descrizione": "5 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "5 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 420 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-5-notti-eventi",
+      "nome": "Ponza - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 49500,
+      "descrizione": "5 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "5 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 495 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 5 nights - Stay + events",
+          "descrizione": "5 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "5 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 495 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-7-notti-alloggio",
+      "nome": "Ponza - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 56000,
+      "descrizione": "7 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "7 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 560 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 7 nights - Stay only",
+          "descrizione": "7 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "7 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 560 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ponza-7-notti-eventi",
+      "nome": "Ponza - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 66500,
+      "descrizione": "7 notti a Ponza con ragazzi della tua età. Isola vicina a Roma, calette e giri in barca.",
+      "descrizione_completa": "7 notti a Ponza, in gruppo con persone della tua età. Isola vicina a Roma, calette e giri in barca.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 665 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "⛵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ponza - 7 nights - Stay + events",
+          "descrizione": "7 nights in Ponza with people your age. An island close to Rome, coves and boat trips.",
+          "descrizione_completa": "7 nights in Ponza, in a group with people your age. An island close to Rome, coves and boat trips.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 665 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "tropea-5-notti-alloggio",
+      "nome": "Tropea - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 36000,
+      "descrizione": "5 notti a Tropea con ragazzi della tua età. Spiaggia bianca, tramonti e vita da paese.",
+      "descrizione_completa": "5 notti a Tropea, in gruppo con persone della tua età. Spiaggia bianca, tramonti e vita da paese.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 360 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tropea - 5 nights - Stay only",
+          "descrizione": "5 nights in Tropea with people your age. White beaches, sunsets and village life.",
+          "descrizione_completa": "5 nights in Tropea, in a group with people your age. White beaches, sunsets and village life.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 360 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "tropea-5-notti-eventi",
+      "nome": "Tropea - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 43500,
+      "descrizione": "5 notti a Tropea con ragazzi della tua età. Spiaggia bianca, tramonti e vita da paese.",
+      "descrizione_completa": "5 notti a Tropea, in gruppo con persone della tua età. Spiaggia bianca, tramonti e vita da paese.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 435 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tropea - 5 nights - Stay + events",
+          "descrizione": "5 nights in Tropea with people your age. White beaches, sunsets and village life.",
+          "descrizione_completa": "5 nights in Tropea, in a group with people your age. White beaches, sunsets and village life.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 435 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "tropea-7-notti-alloggio",
+      "nome": "Tropea - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 48000,
+      "descrizione": "7 notti a Tropea con ragazzi della tua età. Spiaggia bianca, tramonti e vita da paese.",
+      "descrizione_completa": "7 notti a Tropea, in gruppo con persone della tua età. Spiaggia bianca, tramonti e vita da paese.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 480 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tropea - 7 nights - Stay only",
+          "descrizione": "7 nights in Tropea with people your age. White beaches, sunsets and village life.",
+          "descrizione_completa": "7 nights in Tropea, in a group with people your age. White beaches, sunsets and village life.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 480 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "tropea-7-notti-eventi",
+      "nome": "Tropea - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 58500,
+      "descrizione": "7 notti a Tropea con ragazzi della tua età. Spiaggia bianca, tramonti e vita da paese.",
+      "descrizione_completa": "7 notti a Tropea, in gruppo con persone della tua età. Spiaggia bianca, tramonti e vita da paese.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 585 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tropea - 7 nights - Stay + events",
+          "descrizione": "7 nights in Tropea with people your age. White beaches, sunsets and village life.",
+          "descrizione_completa": "7 nights in Tropea, in a group with people your age. White beaches, sunsets and village life.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 585 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "alghero-5-notti-alloggio",
+      "nome": "Alghero - 5 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 39000,
+      "descrizione": "5 notti a Alghero con ragazzi della tua età. Sardegna, mare turchese e centro storico.",
+      "descrizione_completa": "5 notti a Alghero, in gruppo con persone della tua età. Sardegna, mare turchese e centro storico.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 390 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Alghero - 5 nights - Stay only",
+          "descrizione": "5 nights in Alghero with people your age. Sardinia, turquoise sea and old town.",
+          "descrizione_completa": "5 nights in Alghero, in a group with people your age. Sardinia, turquoise sea and old town.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 390 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "alghero-5-notti-eventi",
+      "nome": "Alghero - 5 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 46500,
+      "descrizione": "5 notti a Alghero con ragazzi della tua età. Sardegna, mare turchese e centro storico.",
+      "descrizione_completa": "5 notti a Alghero, in gruppo con persone della tua età. Sardegna, mare turchese e centro storico.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 465 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Alghero - 5 nights - Stay + events",
+          "descrizione": "5 nights in Alghero with people your age. Sardinia, turquoise sea and old town.",
+          "descrizione_completa": "5 nights in Alghero, in a group with people your age. Sardinia, turquoise sea and old town.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 465 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "alghero-7-notti-alloggio",
+      "nome": "Alghero - 7 notti - Solo alloggio",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 52000,
+      "descrizione": "7 notti a Alghero con ragazzi della tua età. Sardegna, mare turchese e centro storico.",
+      "descrizione_completa": "7 notti a Alghero, in gruppo con persone della tua età. Sardegna, mare turchese e centro storico.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 520 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Alghero - 7 nights - Stay only",
+          "descrizione": "7 nights in Alghero with people your age. Sardinia, turquoise sea and old town.",
+          "descrizione_completa": "7 nights in Alghero, in a group with people your age. Sardinia, turquoise sea and old town.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 520 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "alghero-7-notti-eventi",
+      "nome": "Alghero - 7 notti - Alloggio + eventi",
+      "categoria": "estate-italia",
+      "prezzo_centesimi": 62500,
+      "descrizione": "7 notti a Alghero con ragazzi della tua età. Sardegna, mare turchese e centro storico.",
+      "descrizione_completa": "7 notti a Alghero, in gruppo con persone della tua età. Sardegna, mare turchese e centro storico.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 625 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Alghero - 7 nights - Stay + events",
+          "descrizione": "7 nights in Alghero with people your age. Sardinia, turquoise sea and old town.",
+          "descrizione_completa": "7 nights in Alghero, in a group with people your age. Sardinia, turquoise sea and old town.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 625 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "pag-zrce-5-notti-alloggio",
+      "nome": "Isola di Pag (Zrce) - 5 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 32000,
+      "descrizione": "5 notti a Isola di Pag (Zrce) con ragazzi della tua età. La spiaggia dei festival della Croazia.",
+      "descrizione_completa": "5 notti a Isola di Pag (Zrce), in gruppo con persone della tua età. La spiaggia dei festival della Croazia.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 320 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pag Island (Zrce) - 5 nights - Stay only",
+          "descrizione": "5 nights in Pag Island (Zrce) with people your age. The Croatian festival beach.",
+          "descrizione_completa": "5 nights in Pag Island (Zrce), in a group with people your age. The Croatian festival beach.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 320 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "pag-zrce-5-notti-eventi",
+      "nome": "Isola di Pag (Zrce) - 5 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 39500,
+      "descrizione": "5 notti a Isola di Pag (Zrce) con ragazzi della tua età. La spiaggia dei festival della Croazia.",
+      "descrizione_completa": "5 notti a Isola di Pag (Zrce), in gruppo con persone della tua età. La spiaggia dei festival della Croazia.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 395 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pag Island (Zrce) - 5 nights - Stay + events",
+          "descrizione": "5 nights in Pag Island (Zrce) with people your age. The Croatian festival beach.",
+          "descrizione_completa": "5 nights in Pag Island (Zrce), in a group with people your age. The Croatian festival beach.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 395 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "pag-zrce-7-notti-alloggio",
+      "nome": "Isola di Pag (Zrce) - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 43000,
+      "descrizione": "7 notti a Isola di Pag (Zrce) con ragazzi della tua età. La spiaggia dei festival della Croazia.",
+      "descrizione_completa": "7 notti a Isola di Pag (Zrce), in gruppo con persone della tua età. La spiaggia dei festival della Croazia.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 430 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pag Island (Zrce) - 7 nights - Stay only",
+          "descrizione": "7 nights in Pag Island (Zrce) with people your age. The Croatian festival beach.",
+          "descrizione_completa": "7 nights in Pag Island (Zrce), in a group with people your age. The Croatian festival beach.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 430 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "pag-zrce-7-notti-eventi",
+      "nome": "Isola di Pag (Zrce) - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 53500,
+      "descrizione": "7 notti a Isola di Pag (Zrce) con ragazzi della tua età. La spiaggia dei festival della Croazia.",
+      "descrizione_completa": "7 notti a Isola di Pag (Zrce), in gruppo con persone della tua età. La spiaggia dei festival della Croazia.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 535 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎶",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pag Island (Zrce) - 7 nights - Stay + events",
+          "descrizione": "7 nights in Pag Island (Zrce) with people your age. The Croatian festival beach.",
+          "descrizione_completa": "7 nights in Pag Island (Zrce), in a group with people your age. The Croatian festival beach.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 535 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "hvar-5-notti-alloggio",
+      "nome": "Hvar - 5 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 49000,
+      "descrizione": "5 notti a Hvar con ragazzi della tua età. Isole Pakleni di giorno, vita notturna la sera.",
+      "descrizione_completa": "5 notti a Hvar, in gruppo con persone della tua età. Isole Pakleni di giorno, vita notturna la sera.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 490 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🚤",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hvar - 5 nights - Stay only",
+          "descrizione": "5 nights in Hvar with people your age. Pakleni islands by day, nightlife by night.",
+          "descrizione_completa": "5 nights in Hvar, in a group with people your age. Pakleni islands by day, nightlife by night.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 490 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "hvar-5-notti-eventi",
+      "nome": "Hvar - 5 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 56500,
+      "descrizione": "5 notti a Hvar con ragazzi della tua età. Isole Pakleni di giorno, vita notturna la sera.",
+      "descrizione_completa": "5 notti a Hvar, in gruppo con persone della tua età. Isole Pakleni di giorno, vita notturna la sera.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 565 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🚤",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hvar - 5 nights - Stay + events",
+          "descrizione": "5 nights in Hvar with people your age. Pakleni islands by day, nightlife by night.",
+          "descrizione_completa": "5 nights in Hvar, in a group with people your age. Pakleni islands by day, nightlife by night.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 565 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "hvar-7-notti-alloggio",
+      "nome": "Hvar - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 65000,
+      "descrizione": "7 notti a Hvar con ragazzi della tua età. Isole Pakleni di giorno, vita notturna la sera.",
+      "descrizione_completa": "7 notti a Hvar, in gruppo con persone della tua età. Isole Pakleni di giorno, vita notturna la sera.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 650 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🚤",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hvar - 7 nights - Stay only",
+          "descrizione": "7 nights in Hvar with people your age. Pakleni islands by day, nightlife by night.",
+          "descrizione_completa": "7 nights in Hvar, in a group with people your age. Pakleni islands by day, nightlife by night.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 650 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "hvar-7-notti-eventi",
+      "nome": "Hvar - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 75500,
+      "descrizione": "7 notti a Hvar con ragazzi della tua età. Isole Pakleni di giorno, vita notturna la sera.",
+      "descrizione_completa": "7 notti a Hvar, in gruppo con persone della tua età. Isole Pakleni di giorno, vita notturna la sera.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 755 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🚤",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hvar - 7 nights - Stay + events",
+          "descrizione": "7 nights in Hvar with people your age. Pakleni islands by day, nightlife by night.",
+          "descrizione_completa": "7 nights in Hvar, in a group with people your age. Pakleni islands by day, nightlife by night.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 755 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "corfu-5-notti-alloggio",
+      "nome": "Corfu - 5 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 39000,
+      "descrizione": "5 notti a Corfu con ragazzi della tua età. Movida sul lungomare e spiagge.",
+      "descrizione_completa": "5 notti a Corfu, in gruppo con persone della tua età. Movida sul lungomare e spiagge.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 390 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Corfu - 5 nights - Stay only",
+          "descrizione": "5 nights in Corfu with people your age. Seafront nightlife and beaches.",
+          "descrizione_completa": "5 nights in Corfu, in a group with people your age. Seafront nightlife and beaches.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 390 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "corfu-5-notti-eventi",
+      "nome": "Corfu - 5 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 46500,
+      "descrizione": "5 notti a Corfu con ragazzi della tua età. Movida sul lungomare e spiagge.",
+      "descrizione_completa": "5 notti a Corfu, in gruppo con persone della tua età. Movida sul lungomare e spiagge.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 465 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Corfu - 5 nights - Stay + events",
+          "descrizione": "5 nights in Corfu with people your age. Seafront nightlife and beaches.",
+          "descrizione_completa": "5 nights in Corfu, in a group with people your age. Seafront nightlife and beaches.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 465 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "corfu-7-notti-alloggio",
+      "nome": "Corfu - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 52000,
+      "descrizione": "7 notti a Corfu con ragazzi della tua età. Movida sul lungomare e spiagge.",
+      "descrizione_completa": "7 notti a Corfu, in gruppo con persone della tua età. Movida sul lungomare e spiagge.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 520 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Corfu - 7 nights - Stay only",
+          "descrizione": "7 nights in Corfu with people your age. Seafront nightlife and beaches.",
+          "descrizione_completa": "7 nights in Corfu, in a group with people your age. Seafront nightlife and beaches.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 520 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "corfu-7-notti-eventi",
+      "nome": "Corfu - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 62500,
+      "descrizione": "7 notti a Corfu con ragazzi della tua età. Movida sul lungomare e spiagge.",
+      "descrizione_completa": "7 notti a Corfu, in gruppo con persone della tua età. Movida sul lungomare e spiagge.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 625 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏖",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Corfu - 7 nights - Stay + events",
+          "descrizione": "7 nights in Corfu with people your age. Seafront nightlife and beaches.",
+          "descrizione_completa": "7 nights in Corfu, in a group with people your age. Seafront nightlife and beaches.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 625 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "mykonos-5-notti-alloggio",
+      "nome": "Mykonos - 5 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 66000,
+      "descrizione": "5 notti a Mykonos con ragazzi della tua età. Beach club e feste con gli amici.",
+      "descrizione_completa": "5 notti a Mykonos, in gruppo con persone della tua età. Beach club e feste con gli amici.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 660 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🍹",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Mykonos - 5 nights - Stay only",
+          "descrizione": "5 nights in Mykonos with people your age. Beach clubs and parties with friends.",
+          "descrizione_completa": "5 nights in Mykonos, in a group with people your age. Beach clubs and parties with friends.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 660 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "mykonos-5-notti-eventi",
+      "nome": "Mykonos - 5 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 73500,
+      "descrizione": "5 notti a Mykonos con ragazzi della tua età. Beach club e feste con gli amici.",
+      "descrizione_completa": "5 notti a Mykonos, in gruppo con persone della tua età. Beach club e feste con gli amici.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 735 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🍹",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Mykonos - 5 nights - Stay + events",
+          "descrizione": "5 nights in Mykonos with people your age. Beach clubs and parties with friends.",
+          "descrizione_completa": "5 nights in Mykonos, in a group with people your age. Beach clubs and parties with friends.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 735 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "mykonos-7-notti-alloggio",
+      "nome": "Mykonos - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 88000,
+      "descrizione": "7 notti a Mykonos con ragazzi della tua età. Beach club e feste con gli amici.",
+      "descrizione_completa": "7 notti a Mykonos, in gruppo con persone della tua età. Beach club e feste con gli amici.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 880 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🍹",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Mykonos - 7 nights - Stay only",
+          "descrizione": "7 nights in Mykonos with people your age. Beach clubs and parties with friends.",
+          "descrizione_completa": "7 nights in Mykonos, in a group with people your age. Beach clubs and parties with friends.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 880 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "mykonos-7-notti-eventi",
+      "nome": "Mykonos - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 98500,
+      "descrizione": "7 notti a Mykonos con ragazzi della tua età. Beach club e feste con gli amici.",
+      "descrizione_completa": "7 notti a Mykonos, in gruppo con persone della tua età. Beach club e feste con gli amici.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 985 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🍹",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Mykonos - 7 nights - Stay + events",
+          "descrizione": "7 nights in Mykonos with people your age. Beach clubs and parties with friends.",
+          "descrizione_completa": "7 nights in Mykonos, in a group with people your age. Beach clubs and parties with friends.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 985 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "santorini-5-notti-alloggio",
+      "nome": "Santorini - 5 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 67500,
+      "descrizione": "5 notti a Santorini con ragazzi della tua età. Tramonti, borghi bianchi e relax.",
+      "descrizione_completa": "5 notti a Santorini, in gruppo con persone della tua età. Tramonti, borghi bianchi e relax.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 675 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌇",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Santorini - 5 nights - Stay only",
+          "descrizione": "5 nights in Santorini with people your age. Sunsets, white villages and relaxation.",
+          "descrizione_completa": "5 nights in Santorini, in a group with people your age. Sunsets, white villages and relaxation.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 675 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "santorini-5-notti-eventi",
+      "nome": "Santorini - 5 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 75000,
+      "descrizione": "5 notti a Santorini con ragazzi della tua età. Tramonti, borghi bianchi e relax.",
+      "descrizione_completa": "5 notti a Santorini, in gruppo con persone della tua età. Tramonti, borghi bianchi e relax.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 750 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌇",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Santorini - 5 nights - Stay + events",
+          "descrizione": "5 nights in Santorini with people your age. Sunsets, white villages and relaxation.",
+          "descrizione_completa": "5 nights in Santorini, in a group with people your age. Sunsets, white villages and relaxation.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 750 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "santorini-7-notti-alloggio",
+      "nome": "Santorini - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 90000,
+      "descrizione": "7 notti a Santorini con ragazzi della tua età. Tramonti, borghi bianchi e relax.",
+      "descrizione_completa": "7 notti a Santorini, in gruppo con persone della tua età. Tramonti, borghi bianchi e relax.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 900 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌇",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Santorini - 7 nights - Stay only",
+          "descrizione": "7 nights in Santorini with people your age. Sunsets, white villages and relaxation.",
+          "descrizione_completa": "7 nights in Santorini, in a group with people your age. Sunsets, white villages and relaxation.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 900 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "santorini-7-notti-eventi",
+      "nome": "Santorini - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 100500,
+      "descrizione": "7 notti a Santorini con ragazzi della tua età. Tramonti, borghi bianchi e relax.",
+      "descrizione_completa": "7 notti a Santorini, in gruppo con persone della tua età. Tramonti, borghi bianchi e relax.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 1005 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌇",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Santorini - 7 nights - Stay + events",
+          "descrizione": "7 nights in Santorini with people your age. Sunsets, white villages and relaxation.",
+          "descrizione_completa": "7 nights in Santorini, in a group with people your age. Sunsets, white villages and relaxation.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 1005 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "zante-7-notti-alloggio",
+      "nome": "Zante - 7 notti - Solo alloggio",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 56000,
+      "descrizione": "7 notti a Zante con ragazzi della tua età. Mare, escursioni e serate a Laganas.",
+      "descrizione_completa": "7 notti a Zante, in gruppo con persone della tua età. Mare, escursioni e serate a Laganas.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 560 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🐢",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Zakynthos - 7 nights - Stay only",
+          "descrizione": "7 nights in Zakynthos with people your age. Sea, excursions and nights in Laganas.",
+          "descrizione_completa": "7 nights in Zakynthos, in a group with people your age. Sea, excursions and nights in Laganas.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 560 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "zante-7-notti-eventi",
+      "nome": "Zante - 7 notti - Alloggio + eventi",
+      "categoria": "estate-isole",
+      "prezzo_centesimi": 66500,
+      "descrizione": "7 notti a Zante con ragazzi della tua età. Mare, escursioni e serate a Laganas.",
+      "descrizione_completa": "7 notti a Zante, in gruppo con persone della tua età. Mare, escursioni e serate a Laganas.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 665 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🐢",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Zakynthos - 7 nights - Stay + events",
+          "descrizione": "7 nights in Zakynthos with people your age. Sea, excursions and nights in Laganas.",
+          "descrizione_completa": "7 nights in Zakynthos, in a group with people your age. Sea, excursions and nights in Laganas.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 665 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-3-notti-alloggio",
+      "nome": "Ibiza - 3 notti - Solo alloggio",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 37500,
+      "descrizione": "3 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "3 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 375 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 3 nights - Stay only",
+          "descrizione": "3 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "3 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 375 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-3-notti-eventi",
+      "nome": "Ibiza - 3 notti - Alloggio + eventi",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 42000,
+      "descrizione": "3 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "3 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 420 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 3 nights - Stay + events",
+          "descrizione": "3 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "3 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 420 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-5-notti-alloggio",
+      "nome": "Ibiza - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 58500,
+      "descrizione": "5 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "5 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 585 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 5 nights - Stay only",
+          "descrizione": "5 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "5 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 585 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-5-notti-eventi",
+      "nome": "Ibiza - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 66000,
+      "descrizione": "5 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "5 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 660 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 5 nights - Stay + events",
+          "descrizione": "5 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "5 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 660 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-7-notti-alloggio",
+      "nome": "Ibiza - 7 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 78000,
+      "descrizione": "7 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "7 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 780 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 7 nights - Stay only",
+          "descrizione": "7 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "7 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 780 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "ibiza-7-notti-eventi",
+      "nome": "Ibiza - 7 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 88500,
+      "descrizione": "7 notti a Ibiza con ragazzi della tua età. Club, dj internazionali e beach party.",
+      "descrizione_completa": "7 notti a Ibiza, in gruppo con persone della tua età. Club, dj internazionali e beach party.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 885 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ibiza - 7 nights - Stay + events",
+          "descrizione": "7 nights in Ibiza with people your age. Clubs, international DJs and beach parties.",
+          "descrizione_completa": "7 nights in Ibiza, in a group with people your age. Clubs, international DJs and beach parties.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 885 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "lloret-de-mar-5-notti-alloggio",
+      "nome": "Lloret de Mar - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 34500,
+      "descrizione": "5 notti a Lloret de Mar con ragazzi della tua età. Costa Brava, spiaggia e locali.",
+      "descrizione_completa": "5 notti a Lloret de Mar, in gruppo con persone della tua età. Costa Brava, spiaggia e locali.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 345 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌞",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lloret de Mar - 5 nights - Stay only",
+          "descrizione": "5 nights in Lloret de Mar with people your age. Costa Brava, beach and venues.",
+          "descrizione_completa": "5 nights in Lloret de Mar, in a group with people your age. Costa Brava, beach and venues.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 345 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "lloret-de-mar-5-notti-eventi",
+      "nome": "Lloret de Mar - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 42000,
+      "descrizione": "5 notti a Lloret de Mar con ragazzi della tua età. Costa Brava, spiaggia e locali.",
+      "descrizione_completa": "5 notti a Lloret de Mar, in gruppo con persone della tua età. Costa Brava, spiaggia e locali.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 420 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌞",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lloret de Mar - 5 nights - Stay + events",
+          "descrizione": "5 nights in Lloret de Mar with people your age. Costa Brava, beach and venues.",
+          "descrizione_completa": "5 nights in Lloret de Mar, in a group with people your age. Costa Brava, beach and venues.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 420 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "lloret-de-mar-7-notti-alloggio",
+      "nome": "Lloret de Mar - 7 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 46000,
+      "descrizione": "7 notti a Lloret de Mar con ragazzi della tua età. Costa Brava, spiaggia e locali.",
+      "descrizione_completa": "7 notti a Lloret de Mar, in gruppo con persone della tua età. Costa Brava, spiaggia e locali.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 460 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌞",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lloret de Mar - 7 nights - Stay only",
+          "descrizione": "7 nights in Lloret de Mar with people your age. Costa Brava, beach and venues.",
+          "descrizione_completa": "7 nights in Lloret de Mar, in a group with people your age. Costa Brava, beach and venues.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 460 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "lloret-de-mar-7-notti-eventi",
+      "nome": "Lloret de Mar - 7 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 56500,
+      "descrizione": "7 notti a Lloret de Mar con ragazzi della tua età. Costa Brava, spiaggia e locali.",
+      "descrizione_completa": "7 notti a Lloret de Mar, in gruppo con persone della tua età. Costa Brava, spiaggia e locali.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 565 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌞",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lloret de Mar - 7 nights - Stay + events",
+          "descrizione": "7 nights in Lloret de Mar with people your age. Costa Brava, beach and venues.",
+          "descrizione_completa": "7 nights in Lloret de Mar, in a group with people your age. Costa Brava, beach and venues.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 565 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "maiorca-5-notti-alloggio",
+      "nome": "Maiorca - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 49000,
+      "descrizione": "5 notti a Maiorca con ragazzi della tua età. Calette, beach club e feste a Palma.",
+      "descrizione_completa": "5 notti a Maiorca, in gruppo con persone della tua età. Calette, beach club e feste a Palma.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 490 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Majorca - 5 nights - Stay only",
+          "descrizione": "5 nights in Majorca with people your age. Coves, beach clubs and parties in Palma.",
+          "descrizione_completa": "5 nights in Majorca, in a group with people your age. Coves, beach clubs and parties in Palma.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 490 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "maiorca-5-notti-eventi",
+      "nome": "Maiorca - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 56500,
+      "descrizione": "5 notti a Maiorca con ragazzi della tua età. Calette, beach club e feste a Palma.",
+      "descrizione_completa": "5 notti a Maiorca, in gruppo con persone della tua età. Calette, beach club e feste a Palma.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 565 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Majorca - 5 nights - Stay + events",
+          "descrizione": "5 nights in Majorca with people your age. Coves, beach clubs and parties in Palma.",
+          "descrizione_completa": "5 nights in Majorca, in a group with people your age. Coves, beach clubs and parties in Palma.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 565 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "maiorca-7-notti-alloggio",
+      "nome": "Maiorca - 7 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 65000,
+      "descrizione": "7 notti a Maiorca con ragazzi della tua età. Calette, beach club e feste a Palma.",
+      "descrizione_completa": "7 notti a Maiorca, in gruppo con persone della tua età. Calette, beach club e feste a Palma.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 650 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Majorca - 7 nights - Stay only",
+          "descrizione": "7 nights in Majorca with people your age. Coves, beach clubs and parties in Palma.",
+          "descrizione_completa": "7 nights in Majorca, in a group with people your age. Coves, beach clubs and parties in Palma.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 650 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "maiorca-7-notti-eventi",
+      "nome": "Maiorca - 7 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 75500,
+      "descrizione": "7 notti a Maiorca con ragazzi della tua età. Calette, beach club e feste a Palma.",
+      "descrizione_completa": "7 notti a Maiorca, in gruppo con persone della tua età. Calette, beach club e feste a Palma.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 755 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Majorca - 7 nights - Stay + events",
+          "descrizione": "7 nights in Majorca with people your age. Coves, beach clubs and parties in Palma.",
+          "descrizione_completa": "7 nights in Majorca, in a group with people your age. Coves, beach clubs and parties in Palma.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 755 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "barcellona-3-notti-alloggio",
+      "nome": "Barcellona - 3 notti - Solo alloggio",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 25000,
+      "descrizione": "3 notti a Barcellona con ragazzi della tua età. Citta e mare insieme, tapas e serate.",
+      "descrizione_completa": "3 notti a Barcellona, in gruppo con persone della tua età. Citta e mare insieme, tapas e serate.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 250 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏙",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Barcelona - 3 nights - Stay only",
+          "descrizione": "3 nights in Barcelona with people your age. City and sea together, tapas and nights out.",
+          "descrizione_completa": "3 nights in Barcelona, in a group with people your age. City and sea together, tapas and nights out.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 250 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "barcellona-3-notti-eventi",
+      "nome": "Barcellona - 3 notti - Alloggio + eventi",
+      "categoria": "estate-weekend",
+      "prezzo_centesimi": 29500,
+      "descrizione": "3 notti a Barcellona con ragazzi della tua età. Citta e mare insieme, tapas e serate.",
+      "descrizione_completa": "3 notti a Barcellona, in gruppo con persone della tua età. Citta e mare insieme, tapas e serate.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 295 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏙",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Barcelona - 3 nights - Stay + events",
+          "descrizione": "3 nights in Barcelona with people your age. City and sea together, tapas and nights out.",
+          "descrizione_completa": "3 nights in Barcelona, in a group with people your age. City and sea together, tapas and nights out.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 295 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "barcellona-5-notti-alloggio",
+      "nome": "Barcellona - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 39000,
+      "descrizione": "5 notti a Barcellona con ragazzi della tua età. Citta e mare insieme, tapas e serate.",
+      "descrizione_completa": "5 notti a Barcellona, in gruppo con persone della tua età. Citta e mare insieme, tapas e serate.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 390 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏙",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Barcelona - 5 nights - Stay only",
+          "descrizione": "5 nights in Barcelona with people your age. City and sea together, tapas and nights out.",
+          "descrizione_completa": "5 nights in Barcelona, in a group with people your age. City and sea together, tapas and nights out.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 390 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "barcellona-5-notti-eventi",
+      "nome": "Barcellona - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 46500,
+      "descrizione": "5 notti a Barcellona con ragazzi della tua età. Citta e mare insieme, tapas e serate.",
+      "descrizione_completa": "5 notti a Barcellona, in gruppo con persone della tua età. Citta e mare insieme, tapas e serate.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 465 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🏙",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Barcelona - 5 nights - Stay + events",
+          "descrizione": "5 nights in Barcelona with people your age. City and sea together, tapas and nights out.",
+          "descrizione_completa": "5 nights in Barcelona, in a group with people your age. City and sea together, tapas and nights out.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 465 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "malta-5-notti-alloggio",
+      "nome": "Malta - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 42000,
+      "descrizione": "5 notti a Malta con ragazzi della tua età. Mare, inglese e serate a Paceville.",
+      "descrizione_completa": "5 notti a Malta, in gruppo con persone della tua età. Mare, inglese e serate a Paceville.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 420 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Malta - 5 nights - Stay only",
+          "descrizione": "5 nights in Malta with people your age. Sea, English and nights in Paceville.",
+          "descrizione_completa": "5 nights in Malta, in a group with people your age. Sea, English and nights in Paceville.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 420 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "malta-5-notti-eventi",
+      "nome": "Malta - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 49500,
+      "descrizione": "5 notti a Malta con ragazzi della tua età. Mare, inglese e serate a Paceville.",
+      "descrizione_completa": "5 notti a Malta, in gruppo con persone della tua età. Mare, inglese e serate a Paceville.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 495 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Malta - 5 nights - Stay + events",
+          "descrizione": "5 nights in Malta with people your age. Sea, English and nights in Paceville.",
+          "descrizione_completa": "5 nights in Malta, in a group with people your age. Sea, English and nights in Paceville.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 495 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "malta-7-notti-alloggio",
+      "nome": "Malta - 7 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 56000,
+      "descrizione": "7 notti a Malta con ragazzi della tua età. Mare, inglese e serate a Paceville.",
+      "descrizione_completa": "7 notti a Malta, in gruppo con persone della tua età. Mare, inglese e serate a Paceville.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 560 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Malta - 7 nights - Stay only",
+          "descrizione": "7 nights in Malta with people your age. Sea, English and nights in Paceville.",
+          "descrizione_completa": "7 nights in Malta, in a group with people your age. Sea, English and nights in Paceville.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 560 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "malta-7-notti-eventi",
+      "nome": "Malta - 7 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 66500,
+      "descrizione": "7 notti a Malta con ragazzi della tua età. Mare, inglese e serate a Paceville.",
+      "descrizione_completa": "7 notti a Malta, in gruppo con persone della tua età. Mare, inglese e serate a Paceville.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 665 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌍",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Malta - 7 nights - Stay + events",
+          "descrizione": "7 nights in Malta with people your age. Sea, English and nights in Paceville.",
+          "descrizione_completa": "7 nights in Malta, in a group with people your age. Sea, English and nights in Paceville.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 665 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "budva-5-notti-alloggio",
+      "nome": "Budva - 5 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 35000,
+      "descrizione": "5 notti a Budva con ragazzi della tua età. Montenegro economico, mare e movida.",
+      "descrizione_completa": "5 notti a Budva, in gruppo con persone della tua età. Montenegro economico, mare e movida.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 350 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Budva - 5 nights - Stay only",
+          "descrizione": "5 nights in Budva with people your age. Affordable Montenegro, sea and nightlife.",
+          "descrizione_completa": "5 nights in Budva, in a group with people your age. Affordable Montenegro, sea and nightlife.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 350 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "budva-5-notti-eventi",
+      "nome": "Budva - 5 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 42500,
+      "descrizione": "5 notti a Budva con ragazzi della tua età. Montenegro economico, mare e movida.",
+      "descrizione_completa": "5 notti a Budva, in gruppo con persone della tua età. Montenegro economico, mare e movida.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 425 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Budva - 5 nights - Stay + events",
+          "descrizione": "5 nights in Budva with people your age. Affordable Montenegro, sea and nightlife.",
+          "descrizione_completa": "5 nights in Budva, in a group with people your age. Affordable Montenegro, sea and nightlife.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 425 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "budva-7-notti-alloggio",
+      "nome": "Budva - 7 notti - Solo alloggio",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 47000,
+      "descrizione": "7 notti a Budva con ragazzi della tua età. Montenegro economico, mare e movida.",
+      "descrizione_completa": "7 notti a Budva, in gruppo con persone della tua età. Montenegro economico, mare e movida.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 470 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Budva - 7 nights - Stay only",
+          "descrizione": "7 nights in Budva with people your age. Affordable Montenegro, sea and nightlife.",
+          "descrizione_completa": "7 nights in Budva, in a group with people your age. Affordable Montenegro, sea and nightlife.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 470 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "budva-7-notti-eventi",
+      "nome": "Budva - 7 notti - Alloggio + eventi",
+      "categoria": "estate-spagna",
+      "prezzo_centesimi": 57500,
+      "descrizione": "7 notti a Budva con ragazzi della tua età. Montenegro economico, mare e movida.",
+      "descrizione_completa": "7 notti a Budva, in gruppo con persone della tua età. Montenegro economico, mare e movida.\nInclude: pernottamento in appartamento o residence (camere multiple), coordinatore del gruppo, gruppo WhatsApp prima della partenza. Ingresso a serate ed eventi selezionati con aperitivi.\nNon include: viaggio, pasti e spese personali.\nPartenze in programmazione: giugno-settembre 2027. Prezzo indicativo da 575 euro a persona.\nPre-iscrizione senza impegno: nessun pagamento online. Ti ricontattiamo quando le date sono confermate.",
+      "immagine": "",
+      "icona": "🌅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Budva - 7 nights - Stay + events",
+          "descrizione": "7 nights in Budva with people your age. Affordable Montenegro, sea and nightlife.",
+          "descrizione_completa": "7 nights in Budva, in a group with people your age. Affordable Montenegro, sea and nightlife.\nIncludes: accommodation in an apartment or residence (shared rooms), group coordinator, WhatsApp group before departure. Entry to selected nights and events with aperitifs.\nNot included: travel, meals and personal expenses.\nDepartures being planned: June-September 2027. Indicative price from 575 euros per person.\nNo-commitment pre-registration: no online payment. We will contact you when the dates are confirmed."
         }
       }
     }

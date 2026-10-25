@@ -1,6 +1,18 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "Estate in Italia",
+    "slug": "estate-italia"
+  },
+  {
+    "nome": "Estate Croazia e Grecia",
+    "slug": "estate-isole"
+  },
+  {
+    "nome": "Estate Spagna e Mediterraneo",
+    "slug": "estate-spagna"
+  },
+  {
+    "nome": "Weekend d'estate",
+    "slug": "estate-weekend"
   }
 ]
