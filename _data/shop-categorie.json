@@ -4,15 +4,83 @@
     "slug": "estate-italia"
   },
   {
+    "nome": "Gallipoli",
+    "slug": "gallipoli"
+  },
+  {
+    "nome": "Salento mare (Otranto)",
+    "slug": "salento-mare-otranto"
+  },
+  {
+    "nome": "Riviera Romagnola",
+    "slug": "riviera-romagnola"
+  },
+  {
+    "nome": "Ponza",
+    "slug": "ponza"
+  },
+  {
+    "nome": "Tropea",
+    "slug": "tropea"
+  },
+  {
+    "nome": "Alghero",
+    "slug": "alghero"
+  },
+  {
     "nome": "Estate Croazia e Grecia",
     "slug": "estate-isole"
+  },
+  {
+    "nome": "Isola di Pag (Zrce)",
+    "slug": "isola-di-pag-zrce"
+  },
+  {
+    "nome": "Hvar",
+    "slug": "hvar"
+  },
+  {
+    "nome": "Corfu",
+    "slug": "corfu"
+  },
+  {
+    "nome": "Mykonos",
+    "slug": "mykonos"
+  },
+  {
+    "nome": "Santorini",
+    "slug": "santorini"
+  },
+  {
+    "nome": "Zante",
+    "slug": "zante"
   },
   {
     "nome": "Estate Spagna e Mediterraneo",
     "slug": "estate-spagna"
   },
   {
-    "nome": "Weekend d'estate",
-    "slug": "estate-weekend"
+    "nome": "Ibiza",
+    "slug": "ibiza"
+  },
+  {
+    "nome": "Lloret de Mar",
+    "slug": "lloret-de-mar"
+  },
+  {
+    "nome": "Maiorca",
+    "slug": "maiorca"
+  },
+  {
+    "nome": "Barcellona",
+    "slug": "barcellona"
+  },
+  {
+    "nome": "Malta",
+    "slug": "malta"
+  },
+  {
+    "nome": "Budva",
+    "slug": "budva"
   }
 ]
